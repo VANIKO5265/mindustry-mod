@@ -1,0 +1,28 @@
+type: genericCrafter
+craftTime: 120
+size: 2
+hasPower: true
+hasLiquids: true
+liquidCapacity: 60
+consumes: {
+  items: {
+    items: [
+      crystalite/2
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.5
+  }
+  power: 2
+}
+updateEffect: rocketSmokeLarge
+
+requirements: [
+  copper/750
+  lead/500
+  titanium/350
+]
+category: crafting
+outputItem: processed-crystalite/1
+alwaysUnlocked: true
